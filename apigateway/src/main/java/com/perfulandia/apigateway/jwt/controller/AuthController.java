@@ -1,9 +1,15 @@
 package com.perfulandia.apigateway.jwt.controller;
 
-import com.gateway.jwt.dto.*;
-import com.gateway.jwt.service.AuthService;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.perfulandia.apigateway.jwt.dto.AuthResponse;
+import com.perfulandia.apigateway.jwt.dto.LoginRequest;
+import com.perfulandia.apigateway.jwt.service.AuthService;
+
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")

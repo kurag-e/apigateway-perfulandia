@@ -1,9 +1,10 @@
 package com.perfulandia.apigateway.jwt.repository;
 
-import com.gateway.jwt.model.Usuario;
+import java.util.Optional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.Optional;
+import com.perfulandia.apigateway.jwt.model.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
     Optional<Usuario> findByNombreUsuario(String nombreUsuario); // ✅ Usa el nombre exacto del atributo
