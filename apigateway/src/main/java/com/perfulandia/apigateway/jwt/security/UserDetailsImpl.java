@@ -1,11 +1,14 @@
 package com.perfulandia.apigateway.jwt.security;
 
-import com.gateway.jwt.model.Usuario;
-import lombok.AllArgsConstructor;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.GrantedAuthority;
 import java.util.Collection;
 import java.util.Collections;
+
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
+import com.perfulandia.apigateway.jwt.model.Usuario;
+
+import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public class UserDetailsImpl implements UserDetails {

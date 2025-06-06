@@ -1,8 +1,7 @@
 package com.perfulandia.apigateway.redireccion.clientes;
 
-import org.springframework.http.HttpHeaders;
-
 import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -16,7 +15,8 @@ import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import com.gateway.jwt.service.*;
+import com.perfulandia.apigateway.jwt.service.JwtService;
+
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 

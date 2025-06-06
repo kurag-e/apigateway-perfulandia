@@ -12,10 +12,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import org.springframework.http.HttpMethod; // Asegúrate de importar esto arriba
 
-import static com.gateway.jwt.security.PublicRoutes.*; //importa las rutas publicas de jwt
-import static com.gateway.redireccion.gestion.GestionPublicRoutes.*; //importa las rutas publicas de API Gateway
-import static com.gateway.redireccion.productos.ProductosPublicRoutes.*; //importa las rutas publicas de API Productos
-import static com.gateway.redireccion.clientes.ClientesPublicRoutes.*; //importa las rutas publicas de API Clientes
+import static com.perfulandia.apigateway.redireccion.gestion.GestionPublicRoutes.*; //importa las rutas publicas de API Gateway
+import static com.perfulandia.apigateway.redireccion.productos.ProductosPublicRoutes.*; //importa las rutas publicas de API Productos
+import static com.perfulandia.apigateway.redireccion.clientes.ClientesPublicRoutes.*; //importa las rutas publicas de API Clientes
 
 @Configuration
 @RequiredArgsConstructor

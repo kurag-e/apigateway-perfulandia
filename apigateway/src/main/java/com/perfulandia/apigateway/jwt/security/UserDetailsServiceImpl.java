@@ -1,6 +1,6 @@
 package com.perfulandia.apigateway.jwt.security;
 
-import com.gateway.jwt.repository.UsuarioRepository;
+import com.perfulandia.apigateway.jwt.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.*;
 import org.springframework.stereotype.Service;
